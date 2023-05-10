@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T04:47:45.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NQYn8M0NWEwHYafoXBRA" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T04:52:46.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="uHr3c6jXB8_sjy-zG14u" version="21.2.9" type="github">
   <diagram name="第 1 页" id="5eLNra7Sz6NAYM1fffOi">
     <mxGraphModel dx="819" dy="461" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
         <mxCell id="AkFXyGxMT2zVb7DkQITq-11" value="C++ global/class new/delete operator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="190" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkFXyGxMT2zVb7DkQITq-12" value="OS API&lt;br&gt;Linux: sbrk, mmap&lt;br&gt;Windows HeapAllocal, VirtualAlloc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AkFXyGxMT2zVb7DkQITq-12" value="OS API&lt;br&gt;Linux: sbrk, mmap&lt;br&gt;Windows: HeapAllocal, VirtualAlloc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="300" width="440" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AkFXyGxMT2zVb7DkQITq-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.033;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
@@ -110,6 +110,14 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="381" y="160" as="sourcePoint" />
             <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkFXyGxMT2zVb7DkQITq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="AkFXyGxMT2zVb7DkQITq-8" target="AkFXyGxMT2zVb7DkQITq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="139" />
+              <mxPoint x="530" y="152" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
