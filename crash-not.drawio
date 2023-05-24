@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T02:37:58.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pZOIDDrSbi_c4KOgcDKC" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T02:50:14.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="g630HCm4MYSARFcfzL5D" version="21.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1430" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -102,6 +102,107 @@
         </mxCell>
         <mxCell id="g80Bc_psRyEcDJGl0exP-24" value=": )" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="492" y="360.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-27" value="野指针" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="969" y="220.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-28" target="g80Bc_psRyEcDJGl0exP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-28" target="g80Bc_psRyEcDJGl0exP-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-28" target="g80Bc_psRyEcDJGl0exP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-28" target="g80Bc_psRyEcDJGl0exP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-28" value="堆内存&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;被写坏的原因" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1257" y="97" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-29" target="g80Bc_psRyEcDJGl0exP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-29" value="Use After Free" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1247" y="220.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-30" target="g80Bc_psRyEcDJGl0exP-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-30" value="附近(前或后)的内存&lt;br&gt;写越界" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1493" y="219" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-31" value="现场指针是悬空指针&lt;br&gt;读代码找出原因" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1112" y="392" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1307" y="524.6667227909484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-32" value="现场指针不是悬空指针&lt;br&gt;悬空指针在其他地方" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241.5" y="448" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-33" value="多线程未同步" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1112" y="220.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-38" target="g80Bc_psRyEcDJGl0exP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-38" target="g80Bc_psRyEcDJGl0exP-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-38" value="现场是&lt;br&gt;正确的代码?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1257" y="294" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-42" target="g80Bc_psRyEcDJGl0exP-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1182" y="566" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1396.2068965517242" y="645.5862068965519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-42" value="未知位置的&lt;br&gt;悬空指针在哪?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1257" y="526" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-45" value="gdb 扫内存 人肉分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1149" y="646" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-46" value="maze 自动分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1321" y="646" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-51" target="g80Bc_psRyEcDJGl0exP-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-51" value="写越界的来源?" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1493" y="299" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-52" value="gdb 扫内存 人肉分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1431" y="502" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-56" target="g80Bc_psRyEcDJGl0exP-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1461" y="424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g80Bc_psRyEcDJGl0exP-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1658.7356041217672" y="493.4023269127156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-56" value="附近的内存&lt;br&gt;是什么?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1505.5" y="384" width="95" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g80Bc_psRyEcDJGl0exP-57" value="maze 自动分析" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1586" y="502" width="131" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
