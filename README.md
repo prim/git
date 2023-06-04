@@ -14,4 +14,4 @@ git binary
 | 分离模式视角      | yes               | yes                            |
 | 合并模式视角      | yes               | no                             |
 | size tree        | yes               | no                             |
-|                  |                   |                                |
+
