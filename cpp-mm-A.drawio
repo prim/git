@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T08:06:37.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="JUN-0irgVS4PWXSTpEDo" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T08:10:23.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="QMmA_retHHc6pBfTSdxr" version="21.3.7" type="github">
   <diagram name="第 1 页" id="5eLNra7Sz6NAYM1fffOi">
-    <mxGraphModel dx="1728" dy="945" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -448,6 +448,63 @@
         </mxCell>
         <mxCell id="8ScPhK4YGc1OVkPx8WsI-100" value="&lt;b&gt;页面分配器&lt;font color=&quot;#ff0000&quot;&gt; [不定长]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1597.5" y="575" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-106" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1618" y="874" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-107" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1688" y="874" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-108" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1758" y="874" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-109" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1828" y="874" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-110" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1618" y="948" width="351" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-111" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1618" y="948" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-112" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1661" y="948" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-113" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1704" y="948" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-114" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1747" y="948" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-115" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="948" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-116" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1833" y="948" width="46" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-117" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1878" y="948" width="45" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-118" value="2560" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1923" y="948" width="46" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-119" value="page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1898" y="874" width="70" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-122" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8ScPhK4YGc1OVkPx8WsI-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1618" y="913" as="sourcePoint" />
+            <mxPoint x="1628" y="969" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-123" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="8ScPhK4YGc1OVkPx8WsI-118">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1969" y="913" as="sourcePoint" />
+            <mxPoint x="1986" y="948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8ScPhK4YGc1OVkPx8WsI-125" value="&lt;b&gt;小内存分配 &lt;font color=&quot;#ff0000&quot;&gt;[定长]&lt;/font&gt;&lt;/b&gt;&amp;nbsp;- 8 * 2560 = 5 * 4096 = 5 pages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1618" y="988" width="364" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
